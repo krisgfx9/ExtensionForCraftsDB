@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced Network Debugger",
+  "version": "1.0",
+  "permissions": ["debugger", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
